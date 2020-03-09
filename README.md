@@ -13,3 +13,7 @@ Make sure you replace sharinpix://SECRET_ID:SECRET_SECRET@api.sharinpix.com/api/
   by a valid secret generated from your SharinPix organization (SharinPix Admin > Secrets).
 
 SHARINPIX_URL=sharinpix://SECRET_ID:SECRET_SECRET@api.sharinpix.com/api/v1 node index.js
+
+Edit:
+The command can now be executed directly like this (passing your complete secret to it):
+node index.js sharinpix://08d...4a76:W0x...UdoI@api.sharinpix.com/api/v1
